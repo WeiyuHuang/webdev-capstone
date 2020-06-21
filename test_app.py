@@ -76,7 +76,7 @@ class MoviesTestCase(unittest.TestCase):
         CA_TOKEN = os.getenv("CA_TOKEN")
         # Casting Director (can do everything)
         CD_TOKEN = os.getenv("CD_TOKEN")
-        setup_db(self.app, self.database_path)
+        setup_db(self.app)
         self.director_headers = {
             "Content-Type": "application/json",
             "Authorization": "Bearer " + CD_TOKEN,

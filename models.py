@@ -5,7 +5,8 @@ import json
 
 db_path = os.environ.get('DATABASE_URL')
 if not db_path:
-    db_path = "postgres://ghysxaicsnfpru:12e663bdab7d54b349f96eb72e2f4b989ce93c3296812d93e16b42bf8aaa319e@ec2-54-86-170-8.compute-1.amazonaws.com:5432/dfd1o53eo8m4gp"
+    db_name = "movies_test"
+    db_path = "postgres://{}/{}".format('localhost:5432', db_name)
 
 db = SQLAlchemy()
 
