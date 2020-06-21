@@ -208,7 +208,7 @@ This endpoint allows you to delete a movie, based on its id.
 ```javascript
 {
   'success': True,
-  'delete': str(delete_id)
+  'delete': delete_id
 }
 ```
 
