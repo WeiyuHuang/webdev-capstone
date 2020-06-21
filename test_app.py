@@ -286,7 +286,7 @@ class MoviesTestCase(unittest.TestCase):
 
     '''
     TEST ROLE BASED SUCCESS:  Endpoint PATCH /movie, 200
-    A director can update a movie with the PATCH/movie endpoint resulting in 
+    A director can update a movie with the PATCH/movie endpoint resulting in
     an udpated movie in the database and 200 response code.
     '''
 
