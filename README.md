@@ -41,6 +41,10 @@ Following this the application endpoints are ready to be tested with the deploye
 python3 test_app.py
 ```
 
+##### The deployed application can be found here:
+
+https://glistter-capstone.herokuapp.com/
+
 ##### Note: If the existing JWT's are expired new ones can be obtained by following the link on the application homepage.
 
 1) For the Casting Director JWT, please log in with the following credentials:
