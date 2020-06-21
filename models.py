@@ -3,11 +3,10 @@ from sqlalchemy import Column, String, Integer, Date, create_engine
 from flask_sqlalchemy import SQLAlchemy
 import json
 
-# db_path = "postgres://postgres:Udacity123@movietests.cinxaxywkixl.us-west-2.rds.amazonaws.com:5432/movietests"
-db_path = None
-if not db_path:
-    db_name = "movies_test"
-    db_path = "postgres://{}/{}".format("localhost:5432", db_name)
+db_path = "postgres://ghysxaicsnfpru:12e663bdab7d54b349f96eb72e2f4b989ce93c3296812d93e16b42bf8aaa319e@ec2-54-86-170-8.compute-1.amazonaws.com:5432/dfd1o53eo8m4gp"
+# if not db_path:
+#     db_name = "movies_test_2"
+#     db_path = "postgres://{}/{}".format("localhost:5432", db_name)
 
 db = SQLAlchemy()
 
